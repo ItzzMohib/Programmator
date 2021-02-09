@@ -219,8 +219,7 @@ h2
 {
     border: 2px solid blueviolet;
     border-radius: 80px;
-    /* display: flex; */
-    /* flex-wrap: wrap; */
+    
 }
 #Form input
 {
@@ -282,4 +281,87 @@ h2
     color:white;
     font-family: 'Ubuntu', sans-serif;
     width: 30%;
+}
+#BannerImg
+{
+    width: 100%;
+}
+/* For Mobile OR Iphone */
+@media (min-width:375px)and(max-width:785px)
+{
+
+.ImgLink img
+{
+    width: 375px;
+}
+#Form
+{
+    width: 300px;
+    align-self: center;
+}
+.Services
+{
+    width: 300px;
+    justify-content: center;
+}
+.Services2
+{
+    width: 300px;
+    justify-content: center;
+}
+#BannerImg
+{
+    width: 375px;
+}
+.NavBar{
+    display: none;
+    
+    
+}
+.Services
+{
+    position: relative;
+    left: 40px;
+}
+.Services2
+{
+    position: relative;
+    left: 40px;
+}
+.Container
+{
+    justify-content: center;
+}
+
+
+
+}
+
+
+
+
+@media (min-width:768px) and(max-width:1000px)
+{
+    #BannerImg
+{
+    width: 100%;
+}
+.ImgLink img
+{
+    width: 100%;
+}
+.Services
+{
+    position: relative;
+    left: 230px;
+}
+.Services2
+{
+    position: relative;
+    left: 230px;
+}
+.Container
+{
+    justify-content: center;
+}
 }
