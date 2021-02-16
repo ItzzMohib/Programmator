@@ -294,6 +294,8 @@ h2
 {
     width: 300px;
     align-self: center;
+    box-sizing: border-box;
+
 }
 .Services
 {
@@ -385,4 +387,9 @@ h2
 {
     justify-content: center;
 }
+    #form
+    {
+            box-sizing: border-box;
+
+    }
 }
