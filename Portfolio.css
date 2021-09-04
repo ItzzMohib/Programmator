@@ -297,6 +297,10 @@ h2
     box-sizing: border-box;
 
 }
+#Form input
+{
+    width: 15rem;
+}
 .Services
 {
     width: 300px;
@@ -323,6 +327,13 @@ h2
    position: relative;
    left:90px
 }
+.NavBar ul
+{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    right: 2rem;
+}
 .NavBar li a
 {
     font-size:  12px;
@@ -342,8 +353,18 @@ h2
     justify-content: center;
 }
 
-
-
+.PC
+{
+    width: 20rem;
+}
+.PC p
+{
+    text-align: center;
+}
+.PC h3
+{
+    text-align: center;
+}
 }
 
 
