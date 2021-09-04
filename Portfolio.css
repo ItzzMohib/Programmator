@@ -318,6 +318,7 @@ h2
     flex-direction: row;
     position: relative;
     right: 2rem;
+    overflow:hidden;
 }
 .NavBar li a
 {
