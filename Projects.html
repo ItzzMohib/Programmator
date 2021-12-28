@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Portfolio.css">
+    <link rel="stylesheet" href="navbar.css">
+</head>
+<body>
+
+    <header>
+        <!-- Hamburger Button --> 
+  <div onclick="Toggle()" class="hamburger" >
+      <div class="line" id="line1"></div>
+      <div class="line" id="line2"></div>
+      <div class="line" id="line3"></div>
+  </div>
+
+
+            <!-- NavLinks -->
+  <!-- <img class="logo" src="\images\logo.svg" alt=""> -->
+  <nav class="Navbar">
+      <li><a href="index.html"  >Home</a></li>
+      <li><a href="Projects.html">Portfolio</a></li>
+      <li><a href="">Services</a></li>
+      <li><a href="">Reviews</a></li>
+  </nav>
+</header>
+
+   <h2 class="portfoliohead">Our Works!</h2>
+   <hr>
+
+    <div class="PortfolioContainer">
+
+        <div class="PC" id="Item-1">
+         <a href="https://stupefied-williams-1a21c3.netlify.app/"><img src="Pizzeria.png" alt=""><br></a>
+         
+         <h3>The Evolution Academy</h3>
+         <button class="ShowMore">View Details</button>
+         <div class="detailcontainer hidden">
+            <p>Bringing A Brand To Life "The Evolution Academy"</p>
+            <h4>Features:</h4>
+            <li>Fully Functional Contact Forms</li>
+            <li>Dynamic User Ratings System</li>
+            <li>Responsive Design</li>
+   
+            <h4>Technologies Used:</h4>
+            <li>HTML/CSS</li>
+            <li>Javascript</li>
+            <li>Google Firebase</li>
+         </div>
+ 
+
+        </div>
+
+
+        <div class="PC" id="Item-2">
+            <a href="https://redroomgraphics.cf/"><img src="RM.png" alt=""><br></a>
+            <h3>Red Room Graphics</h3>
+            <button class="ShowMore">View Details</button>
+            <div class="detailcontainer hidden">
+                <p>Red Room Graphics A Eye Catching Website For A Graphic Design Firm!</p>
+                <h4>Features:</h4>
+    
+             <li>Fully Functional Contact Forms</li>
+             <li>Dynamic User Ratings System</li>
+             <li>Responsive Design</li>
+    
+             <h4>Technologies Used:</h4>
+             <li>HTML/CSS</li>
+             <li>Javascript</li>
+             <li>Google Firebase</li>
+            </div>
+          
+
+        </div>
+        <div class="PC" id="Item-3"></div>
+        <div class="PC" id="Item-4"></div>
+        <div class="PC" id="Item-5"></div>
+    </div>
+
+    <script src="brain.js"></script>
+</body>
+</html>

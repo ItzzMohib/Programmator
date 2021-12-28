@@ -1,0 +1,394 @@
+
+*
+{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body
+{
+   
+    background-color:#24252A;
+   
+}
+#BannerImg
+{
+    margin-top: 2rem;
+}
+
+.Container
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    background-color: blueviolet;
+    border: 2px solid black;
+    border-radius: 20px;
+
+}
+
+.FootNav
+{
+    
+    
+    
+    /* border: 2px solid black; */
+    width:300px;
+    height:300px;
+}
+#list-1
+{
+    color: white;
+    list-style: none;
+    /* flex-basis: 462px; */
+    text-align: center;
+    align-self: center;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+#list-2
+{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    color: white;
+    list-style: none;
+    /* flex-basis: 462px; */
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+#list-2 a
+{
+    
+    
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+#list-2 a:hover
+{
+    color:#24252A
+}
+#list-3
+{
+    color: white;
+    list-style: none;
+    /* flex-basis: 562px; */
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+#list-3 h4
+{
+    color:#24252A;
+}
+
+.Services
+{
+    display:flex;
+    flex-wrap: wrap;
+   justify-content: space-evenly;
+    
+}
+.Services2
+{
+    display:flex;
+    flex-wrap: wrap;
+   justify-content: space-evenly;
+    
+}
+.Items
+{
+    border: 2px solid blueviolet;
+    color:white;
+     width: 350px;
+     height: 200px;
+     font-family: 'Ubuntu', sans-serif;
+     text-align: center;
+     border-radius: 25px;
+}
+h2
+{
+    color:white;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+#Mohib
+{
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 100%; */
+}
+#Background
+{
+    width: 100%;
+}
+
+.Ad
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.Para
+{
+    /* border: 2px solid blueviolet; */
+    width: 30%;
+    height: 300px;
+    color:white;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+   
+}
+.Para ul
+{
+    overflow: auto;
+}
+.Para li{
+    color:white;
+    font-family: 'Ubuntu', sans-serif;
+}
+#WhyUs
+{
+    flex-basis: 400px;
+    align-self: center;
+}
+#Form
+{
+    border: 2px solid blueviolet;
+    border-radius: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 20rem;
+}
+#Form input
+{
+    text-align: center;
+    font-size: 24px;
+    border: 2px solid blueviolet;
+    border-radius: 10px;
+    background-color:black;
+    color: white;
+    display: flex;
+    margin-top: 1rem;
+}
+#Form textarea
+{
+    text-align: center;
+    font-size: 24px;
+    border: 2px solid blueviolet;
+    border-radius: 10px;
+    background-color:black;
+    color: white;
+    display: flex;
+    margin-top: 1rem;
+    height: 5rem;
+}
+
+#Form button
+{
+    font-size: large;
+    border: 2px solid blueviolet;
+    border-radius: 10px;
+    padding: 6px;
+    width: 150px;
+    background-color: black;
+    margin-top: 1rem;
+}
+#Form button a
+{
+    text-decoration: none;
+    color: white;
+}
+
+#Form button a:hover
+{
+    color: blueviolet;
+    
+}
+#WhyUs li
+{
+    text-align:start;
+}
+#xD
+{
+    width: 100%;
+}
+
+.PortfolioContainer
+{
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+   
+}
+.PC img
+{
+    width: 100%;
+}
+.PC a:hover
+{
+      background-color: blueviolet;
+}
+.PC
+{
+    color:white;
+    font-family: 'Ubuntu', sans-serif;
+    width: 30%;
+}
+#BannerImg
+{
+    width: 100%;
+}
+/* For Mobile OR Iphone */
+@media (min-width:360px) and (max-width:1024px)
+{
+
+.ImgLink img
+{
+    width: 375px;
+}
+#Form
+{
+    width: 100%;
+    box-sizing: border-box;
+
+}
+#Form input
+{
+    width: 15rem;
+    display: flex;
+    align-items: center;
+}
+#Form textarea
+{
+    width: 15rem;
+}
+.Services
+{
+    width: 300px;
+    justify-content: center;
+}
+.Services2
+{
+    width: 300px;
+    justify-content: center;
+}
+#BannerImg
+{
+    width: 375px;
+}
+
+.Services
+{
+    position: relative;
+    left: 40px;
+}
+.Services2
+{
+    position: relative;
+    left: 40px;
+}
+.Container
+{
+    justify-content: center;
+}
+
+.PC
+{
+    width: 20rem;
+}
+.PC p
+{
+    text-align: center;
+}
+.PC h3
+{
+    text-align: center;
+}
+}
+
+
+.hidden
+{
+    display: none;
+}
+
+.ShowMore
+{
+    padding: .5rem;
+    text-align: center;
+    color: white;
+    background-color: blueviolet;
+    border: 2px solid blueviolet;
+    border-radius: 2em 0;
+    cursor: pointer;
+}
+.ShowMore:hover
+{
+    border-radius: 0,2em;
+}
+.detailcontainer
+{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+}
+.portfoliohead
+{
+    text-align: center;
+    color: white;
+    margin-top: 4rem;
+}
+hr
+{
+    width: 5rem;
+    background-color: blueviolet;
+    height: .1rem;
+    border: 2px solid blueviolet;
+    transform: translateY(-20px);
+    border-radius: 10px 20px 10px 20px;
+}
+
+
+@media (max-width:768px)
+{
+    #BannerImg
+{
+    width: 100%;
+}
+.ImgLink img
+{
+    width: 100%;
+}
+
+.Container
+{
+    justify-content: center;
+}
+
+.left
+{
+    position: relative;
+    left:300px
+}
+
+    #form
+    {
+            box-sizing: border-box;
+        
+
+    }
+
+    .ShowMore
+    {
+        display: flex;
+        margin: auto;
+        transform: translateY(-10px);
+    }
+}
+
+
